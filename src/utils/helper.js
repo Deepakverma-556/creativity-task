@@ -60,8 +60,4 @@ export const NAV_LIST = [
         OptionTwo:"link 2",
         OptionThree:"link 3",
     },
-    
-    // "Who We Help",
-    // "Why Venveo",
-    // "Resources",
 ]
