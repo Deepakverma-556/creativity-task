@@ -5,13 +5,11 @@ import Faq from './components/Faq';
 import Card from './components/Card';
 
 function App() {
-
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/button' element={<MyButton/>} />
         <Route path='/faq' element={<Faq />} />
-        <Route path='/card/:id' element={<Card/>} />
       </Routes>
     </BrowserRouter>
   );
