@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MyButton from './components/MyButton';
 import Faq from './components/Faq';
-import Card from './components/Card';
+import MenuIcon from './components/MenuIcon';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path='/button' element={<MyButton/>} />
         <Route path='/faq' element={<Faq />} />
+        <Route path='/menu' element={<MenuIcon />} />
       </Routes>
     </BrowserRouter>
   );
