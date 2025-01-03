@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.earth {
+    animation: orbit 36.5s linear infinite;
+    border: none;
+}
+.moon {
+    animation: orbit 2.7s linear infinite;
+    border: none;
+}
+.earth::before,
+.moon::before{
+    content: "";
+}
+@keyframes orbit{
+    to{
+        transform: rotate(360deg) ;
+    }
+}
