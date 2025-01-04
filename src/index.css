@@ -7,13 +7,10 @@
     border: none;
 }
 .moon {
-    animation: orbit 2.7s linear infinite;
+    animation: orbit 5.7s linear infinite;
     border: none;
 }
-.earth::before,
-.moon::before{
-    content: "";
-}
+
 @keyframes orbit{
     to{
         transform: rotate(360deg) ;
