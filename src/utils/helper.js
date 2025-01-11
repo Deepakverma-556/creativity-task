@@ -26,15 +26,15 @@ export const MEDIA_LIST = [
     },
     {
         icon: <Instagram />,
-        link:"https://www.facebook.com/"
+        link:"https://www.instagram.com/"
     },
     {
         icon: <Twitter />,
-        link:"https://www.facebook.com/"
+        link:"https://www.twitter.com/"
     },
     {
         icon: <Whatsapp />,
-        link:"https://www.facebook.com/"
+        link:"https://www.whatsapp.com/"
     },
 ]
 
