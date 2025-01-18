@@ -9,6 +9,9 @@ module.exports = {
         md: '770px',
         lg:'1025px'
       },
+      fontFamily: {
+        macondo: ["Macondo", "serif"]
+      }
     },
   },
   plugins: [],

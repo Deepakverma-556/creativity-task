@@ -6,6 +6,7 @@ import MenuIcon from './components/MenuIcon';
 import Moon from './components/Moon';
 import Dummy from './components/Dummy';
 import ReflectIcons from './components/ReflectIcons';
+import Book from './components/Book';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/moon' element={<Moon />} />
         <Route path='/dummy' element={<Dummy />} />
         <Route path='/reflection' element={<ReflectIcons />} />
+        <Route path='/book' element={<Book />} />
       </Routes>
     </BrowserRouter>
   );
