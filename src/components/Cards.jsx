@@ -50,7 +50,7 @@ const Cards = () => {
             )}
             {isSubmitted && (
                 <div className='relative z-20'>
-                    <div className='border border-white rounded-2xl p-4 max-w-80 bg-black'>
+                    <div className='border border-white rounded-2xl p-4 max-w-80 backdrop-blur-sm'>
                         <img src={images} alt="my-image" className='size-36 rounded-full mx-auto mb-6 object-cover pointer-events-none' />
                         <p className='max-w-max mx-auto text-center font-bold text-[22px] mb-4 bg-gradient-to-r from-orange via-white to-green bg-clip-text text-transparent uppercase'>{addName}</p>
                         <p className='bg-gradient-to-b text-center from-orange via-white to-green bg-clip-text text-transparent text-lg font-semibold'>Let the constitution give us power, and make us unique, united, and undivided. Let's use the strength of unity to make India unstoppable. Happy Republic Day 2025.</p>
