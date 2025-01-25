@@ -37,7 +37,7 @@ const Cards = () => {
     }
     return (
         <div className='bg-black min-h-screen flex-col flex items-center justify-center py-20 overflow-hidden relative'>
-            <img src={ashoka} alt='ashoka' className='bg-flag size-[600px] max-lg:size-[500px] max-sm:size-[350px] ashoka-rotate rounded-full bg-cover absolute z-10' />
+            <img src={ashoka} alt='ashoka' className='bg-flag size-[600px] max-lg:size-[500px] max-sm:size-[350px] ashoka-rotate rounded-full bg-cover absolute z-10 pointer-events-none' />
             <ToastContainer position='top-left' transition={Slide} />
             <h1 className='text-3xl relative z-20 font-bold pb-8 max-w-max mx-auto text-center bg-gradient-to-r from-orange via-white to-green bg-clip-text text-transparent'>Build Your Card For Republic Day</h1>
             {!isSubmitted && (
@@ -51,7 +51,7 @@ const Cards = () => {
             {isSubmitted && (
                 <div className='relative z-20'>
                     <div className='border border-white rounded-2xl p-4 max-w-80 bg-black'>
-                        <img src={images} alt="my-image" className='size-28 rounded-full mx-auto mb-6 object-cover' />
+                        <img src={images} alt="my-image" className='size-28 rounded-full mx-auto mb-6 object-cover pointer-events-none' />
                         <p className='max-w-max mx-auto text-center font-bold text-[22px] mb-4 bg-gradient-to-r from-orange via-white to-green bg-clip-text text-transparent uppercase'>{addName}</p>
                         <p className='bg-gradient-to-b text-center from-orange via-white to-green bg-clip-text text-transparent text-lg font-semibold'>Let the constitution give us power, and make us unique, united, and undivided. Let's use the strength of unity to make India unstoppable. Happy Republic Day 2025.</p>
                     </div>
