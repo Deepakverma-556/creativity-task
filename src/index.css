@@ -48,6 +48,34 @@
   }
 }
 
+/* text animation */
+
+.box .child-box:first-child {
+  transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .child-box:last-child {
+  transform: perspective(100px) rotateY(15deg);
+}
+
+.box .child-box span {
+  animation: marquee 5s linear infinite;
+}
+
+.box .child-box:first-child span {
+  animation-delay: 2.5s;
+}
+
+@keyframes marquee {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
 @media (max-width:990.99px) {
   .custom-toast {
     min-height: 5px !important;

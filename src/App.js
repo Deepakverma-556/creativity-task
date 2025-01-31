@@ -8,6 +8,7 @@ import Dummy from './components/Dummy';
 import ReflectIcons from './components/ReflectIcons';
 import Book from './components/Book';
 import Cards from './components/Cards';
+import { TextAnimation } from './components/TextAnimation';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/reflection' element={<ReflectIcons />} />
         <Route path='/book' element={<Book />} />
         <Route path='/card' element={<Cards />} />
+        <Route path='/text' element={<TextAnimation />} />
       </Routes>
     </BrowserRouter>
   );
