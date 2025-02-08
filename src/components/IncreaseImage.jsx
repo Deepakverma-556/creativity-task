@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { INCREASE_IMAGES_LIST } from '../utils/helper'
 
-const IncreaseCards = () => {
+const IncreaseImage = () => {
     const [open, setOpen] = useState()
     return (
         <div className='flex items-center justify-center bg-black h-screen'>
@@ -18,4 +18,4 @@ const IncreaseCards = () => {
     )
 }
 
-export default IncreaseCards
+export default IncreaseImage

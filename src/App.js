@@ -9,7 +9,7 @@ import ReflectIcons from './components/ReflectIcons';
 import Book from './components/Book';
 import Cards from './components/Cards';
 import { TextAnimation } from './components/TextAnimation';
-import IncreaseCards from './components/IncreaseCards';
+import IncreaseImage from './components/IncreaseImage';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route path='/book' element={<Book />} />
         <Route path='/card' element={<Cards />} />
         <Route path='/text' element={<TextAnimation />} />
-        <Route path='/increase-card' element={<IncreaseCards />} />
+        <Route path='/increase-image' element={<IncreaseImage />} />
       </Routes>
     </BrowserRouter>
   );
