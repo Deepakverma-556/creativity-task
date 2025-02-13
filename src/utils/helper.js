@@ -4,6 +4,9 @@ import mountainCity from "../assets/images/mountain-city.jpg"
 import mountain from "../assets/images/mountain.jpg"
 import ancient from "../assets/images/ancient-building.jpg"
 import leaves from "../assets/images/leaves.avif"
+import child from "../assets/images/child.jpg"
+import girl from "../assets/images/girl.jpg"
+import boy from "../assets/images/boy.jpg"
 
 export const FAQ_LIST = [
     {
@@ -63,6 +66,21 @@ export const INCREASE_IMAGES_LIST = [
     {
         image: ancient,
         imageAlt: "ancient-building"
+    },
+]
+
+export const CARD_HOVER_LIST = [
+    {
+        image: child,
+        imageAlt:"child"
+    },
+    {
+        image: girl,
+        imageAlt:"girl"
+    },
+    {
+        image: boy,
+        imageAlt:"boy"
     },
 ]
 

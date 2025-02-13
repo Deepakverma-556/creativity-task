@@ -39,7 +39,7 @@ const Cards = () => {
         <div className='bg-black min-h-screen flex-col flex items-center justify-center py-20 overflow-hidden relative'>
             <img src={ashoka} alt='ashoka' className='bg-flag size-[600px] max-lg:size-[500px] max-sm:size-[350px] ashoka-rotate rounded-full bg-cover absolute z-10 pointer-events-none' />
             <ToastContainer position='top-left' transition={Slide} />
-            <h1 className='text-3xl relative z-20 font-bold pb-8 max-w-max mx-auto text-center bg-gradient-to-r from-orange via-white to-green bg-clip-text text-transparent'>Build Your Card For Republic Day</h1>
+            <h2 className='text-3xl relative z-20 font-bold pb-8 max-w-max mx-auto text-center bg-gradient-to-r from-orange via-white to-green bg-clip-text text-transparent'>Build Your Card For Republic Day</h2>
             {!isSubmitted && (
                 <form onSubmit={handleChange} className='border bg-black flex-col flex border-white p-5 rounded-2xl relative z-20'>
                     <input required value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder='Your Name' className='text-white placeholder:text-white rounded-2xl px-3 py-2 outline-none bg-transparent border border-white' />

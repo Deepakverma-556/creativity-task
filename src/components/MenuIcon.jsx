@@ -11,7 +11,7 @@ const MenuIcon = () => {
     return (
         <div className='bg-black min-h-screen pt-4'>
             <div className='max-w-[1440px] w-full mx-auto relative'>
-                <h1 className='text-white text-5xl font-semibold text-center pb-10 max-sm:text-4xl'>MENU</h1>
+                <h2 className='text-white text-5xl font-semibold text-center pb-10 max-sm:text-4xl'>MENU</h2>
                 <div className='absolute left-0'>
                     <img onClick={() => setOpen(!open)} src={file} alt="file" className={`h-32 max-md:h-28 max-sm:h-16 transition-all duration-300 cursor-pointer relative z-10 ${open ? "rotate-90" : ""} `} />
                     <p className='text-white text-center text-xl max-sm:text-base'>MENU</p>
