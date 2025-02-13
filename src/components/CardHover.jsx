@@ -4,11 +4,11 @@ import { CARD_HOVER_LIST } from '../utils/helper'
 const CardHover = () => {
     return (
         <div className='flex flex-col gap-5 items-center justify-center min-h-screen bg-black py-10'>
-            <h2 className='text-white font-bold text-4xl pb-6'>Hover On Card</h2>
+            <h2 className='text-white font-bold text-4xl pb-6'>Hover On Cards</h2>
             <div className='flex gap-5 items-center px-4 flex-wrap justify-center'>
                 {CARD_HOVER_LIST.map((obj, i) => (
                     <div key={i} className='bg-cover w-48 h-64 border relative border-white overflow-hidden group rounded-lg cursor-pointer hover:bg-opacity-15'>
-                        <img src={obj.image} alt={obj.imageAlt} className='w-full h-full object-cover group-hover:opacity-20' />
+                        <img src={obj.image} alt={obj.imageAlt} className='w-full h-full object-cover group-hover:opacity-20 pointer-events-none transition-all duration-300' />
                         <div className='absolute z-20 h-[0.5px] bottom-8 -left-full group-hover:-left-[85px] w-full bg-white transition-all duration-300'></div>
                         <div className='absolute z-20 h-full left-2 -top-full w-[0.5px] bg-white group-hover:-top-10 transition-all duration-300'></div>
                         <div className='absolute z-20 h-full left-28 -bottom-full group-hover:-bottom-[190px] w-[0.5px] bg-white transition-all duration-300'></div>
