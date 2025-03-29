@@ -76,6 +76,43 @@
   }
 }
 
+/* loader */
+
+.white-box {
+  animation: animate 4s ease-in-out infinite;
+  animation-delay: -2s;
+}
+
+.pink-circle {
+  animation: animate 4s ease-in-out infinite;
+}
+
+.span-circle{
+  z-index: 2;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-150px, 50px) scale(0.4) rotate(0deg);
+    z-index: 1;
+  }
+
+  50% {
+    z-index: 1;
+    transform: translate(150px, -50px) scale(0.4) rotate(180deg);
+  }
+
+  50.0001% {
+    transform: translate(150px, -50px) scale(0.4) rotate(180deg);
+    z-index: 3;
+  }
+
+  100% {
+    transform: translate(-150px, 50px) scale(0.4) rotate(360deg);
+    z-index: 3;
+  }
+}
+
 @media (max-width:990.99px) {
   .custom-toast {
     min-height: 5px !important;

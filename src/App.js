@@ -11,6 +11,8 @@ import Cards from './components/Cards';
 import { TextAnimation } from './components/TextAnimation';
 import IncreaseImage from './components/IncreaseImage';
 import CardHover from './components/CardHover';
+import ClickableSlider from './components/ClickableSlider';
+import Loader from './components/Loader';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route path='/text' element={<TextAnimation />} />
         <Route path='/increase-image' element={<IncreaseImage />} />
         <Route path='/card-hover' element={<CardHover />} />
+        <Route path='/clickable' element={<ClickableSlider />} />
+        <Route path='/loader' element={<Loader />} />
       </Routes>
     </BrowserRouter>
   );
