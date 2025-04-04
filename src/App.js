@@ -13,6 +13,7 @@ import IncreaseImage from './components/IncreaseImage';
 import CardHover from './components/CardHover';
 import ClickableSlider from './components/ClickableSlider';
 import Loader from './components/Loader';
+import LatestHoverEffect from './components/LatestHoverEffect';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/card-hover' element={<CardHover />} />
         <Route path='/clickable' element={<ClickableSlider />} />
         <Route path='/loader' element={<Loader />} />
+        <Route path='/menu-hover' element={<LatestHoverEffect />} />
       </Routes>
     </BrowserRouter>
   );
